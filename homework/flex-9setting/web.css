@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol ul{
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.header{
+    display: flex;
+    background-color: rgba(216, 212, 212, 0.925);
+    justify-content: flex-end;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.header a{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.fb{
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px gray solid;
+}
+
+.header a:hover{
+    color: red;
+}
+
+.medium{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+
+}
+
+.medium ul{
+    list-style: none;
+    display: flex;
+}
+
+.medium ul a {
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    color: #5df0ba;
+    text-decoration: none;
+}
+
+.medium ul a:hover{
+    border-bottom: 2px solid #00ffa2;
+}
+
+.slogan{
+    margin-bottom: 250px;
+}
+
+.slogan img{
+    position: absolute;
+}
+
+.slogan h2{
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    top: 120px;
+    padding: 10px;
+    font-size: 36px;
+    background-color: rgba(49, 47, 47, 0.274);
+}
+
+.containt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.item{
+    width: 300px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin: 10px;
+}
+
+.item h1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.item p{
+    font-size: 16px;
+    font-family: verdana;
+    line-height: 1.5;
+    padding: 15px;
+    text-align: justify;
+}
+ul{
+    margin-left: 25px;
+
+}
+li{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.footer{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer li{
+    list-style: none;
+    margin-right: 10px;
+    font-size: 18px;
+}

@@ -1,0 +1,119 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    background: rgba(192, 187, 187, 0.733);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header a{
+    text-decoration: none;
+}
+.header a:hover{
+    color: red;
+}
+
+.fb{
+    padding-right: 10px;
+    border-right: gray solid 1px;
+}
+
+.twitter{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+ 
+.menu .list{
+    display: flex;
+
+}
+
+.menu .list a{
+    display: block;
+    margin-right: 10px;
+    margin-top: 2px;
+    padding: 13px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #28d495c4;
+}
+
+.menu .list a:hover{
+    border-bottom: 2px solid #00ffa2;
+}
+
+.slogan img{
+    position: absolute;
+}
+
+.slogan h1{
+    position: relative;
+    top: 100px;
+    background-color: rgba(88, 83, 83, 0.24);
+    color: white;
+    font-family: verdana;
+    font-size: 36px;
+    padding: 10px;
+}
+
