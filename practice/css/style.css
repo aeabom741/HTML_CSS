@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+ol {
 	list-style: none;
 }
 blockquote, q {
@@ -117,3 +117,34 @@ table {
     padding: 10px;
 }
 
+.contant{
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.item{
+    border: 1px solid black;
+    margin: 15px;
+}
+
+.item h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item p{
+    font-size: 18px;
+    padding: 10px;
+    text-align:justify;
+    line-height: 1.4;
+}
+
+.item li{
+    margin-left: 30px;
+    padding: 5px;
+    font-size: 18px;
+}
